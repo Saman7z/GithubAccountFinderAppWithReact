@@ -1,0 +1,37 @@
+.error-container {
+  max-width: 85vw;
+  margin: 1rem auto;
+  text-align: center;
+  font-size: 1.2rem;
+  position: relative;
+}
+.error-error {
+  padding: 1rem 1.5rem;
+  background-color: rgb(255, 124, 124);
+  color: #fff;
+}
+.error-clear-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+.error-success {
+  padding: 1rem 1.5rem;
+  background-color: rgb(140, 255, 111);
+  color: #fff;
+}
+.error-primary {
+  padding: 1rem 1.5rem;
+  background-color: rgb(104, 144, 255);
+  color: #fff;
+}
+@media (max-width: 1300px) {
+  .error-container {
+    max-width: 95vw;
+  }
+}
